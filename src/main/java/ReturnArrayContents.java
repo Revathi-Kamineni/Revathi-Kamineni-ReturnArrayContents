@@ -31,7 +31,7 @@ public class ReturnArrayContents {
     public String arrayToString(int[] nums){
        String str = Arrays.toString(nums).replaceAll("\\[|\\]|,|s", "");
 //for(int 1=0; i<nums.length;i++){
-//        str = nums[i]+"";
+//        str += nums[i]+"";
 //    }
         return str;
     }
